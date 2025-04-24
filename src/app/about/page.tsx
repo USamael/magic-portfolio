@@ -91,8 +91,8 @@ export default function About() {
           >
             <Avatar src={person.avatar} size="xl" />
             <Flex gap="8" vertical="center">
-              <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
+              {/*<Icon onBackground="accent-weak" name="globe" />*/}
+              İzmir/Turkey
             </Flex>
             {person.languages.length > 0 && (
               <Flex wrap gap="8">
@@ -113,7 +113,7 @@ export default function About() {
             vertical="center"
             marginBottom="32"
           >
-            {about.calendar.display && (
+            {/*{about.calendar.display && (
               <Flex
                 fitWidth
                 border="brand-alpha-medium"
@@ -128,7 +128,7 @@ export default function About() {
                 marginBottom="m"
                 vertical="center"
               >
-                <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
+                {/*<Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
                 <Flex paddingX="8">Schedule a call</Flex>
                 <IconButton
                   href={about.calendar.link}
@@ -137,7 +137,7 @@ export default function About() {
                   icon="chevronRight"
                 />
               </Flex>
-            )}
+            )}*/}
             <Heading className={styles.textAlign} variant="display-strong-xl">
               {person.name}
             </Heading>

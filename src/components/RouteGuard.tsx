@@ -92,7 +92,7 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
     return (
       <Column paddingY="128" maxWidth={24} gap="24" center>
         <Heading align="center" wrap="balance">
-          This page is password protected
+          Hop hemşerim nereye?
         </Heading>
         <Column fillWidth gap="8" horizontal="center">
           <PasswordInput
